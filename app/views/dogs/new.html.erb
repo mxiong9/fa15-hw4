@@ -1,0 +1,8 @@
+<h1> Adopt a New Dog: </h1>
+ 
+	<%= form_for @dog do |d| %>
+    <div class="line"> Name: <%= d.text_field :name %> </div>
+    <div class="line"> Age: <%= d.text_field :age %> </div>
+    <div class="line"><%= d.submit %></div>
+
+<% end %>
